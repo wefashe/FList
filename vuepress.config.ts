@@ -71,21 +71,21 @@ export default defineUserConfig({
     //     maxDeep: 3
     //   }),
     // },
-    {
-      mountPath: "/gitee测试/发行版",
-      analysis: giteeReleasesFilesAnalysis({
-        user: "jja8",
-        repository: "flist-test",
-        direction: "desc"
-      })
-    },
-    {
-      mountPath: "/gitee测试/仓库",
-      analysis: giteeReposAnalysis({
-        user: "jja8",
-        repository: "flist-test"
-      }),
-    },
+    // {
+    //   mountPath: "/gitee测试/发行版",
+    //   analysis: giteeReleasesFilesAnalysis({
+    //     user: "jja8",
+    //     repository: "flist-test",
+    //     direction: "desc"
+    //   })
+    // },
+    // {
+    //   mountPath: "/gitee测试/仓库",
+    //   analysis: giteeReposAnalysis({
+    //     user: "jja8",
+    //     repository: "flist-test"
+    //   }),
+    // },
     // {
     //   mountPath: "/ProgrammingVTuberLogos",
     //   analysis: githubReposAnalysis({
