@@ -18,6 +18,7 @@ import { giteeReposAnalysis } from './src/node/analysis/giteeReposAnalysis/index
 export default defineUserConfig({
   bundler: viteBundler(),
   pagePatterns: [],
+  base: './',
   lang: 'zh-CN',
   public: `./public`,
   // 网站标题，标题颜色可在 src/client/css/main.css 中修改
